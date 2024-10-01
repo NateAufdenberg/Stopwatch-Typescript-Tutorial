@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch Typescript</title>
+    <link rel="stylesheet" 
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style>
+        body, .jumbotron { padding: 50px; };
+        .timer {
+            font-size: 120px;
+        };
+    </style>
+</head>
+<body>
+    <div class="jumbrotron text-center">
+
+        <div class="timer">
+            <span class="minutes">00</span> : <span class="seconds">00</span>
+        </div>
+
+        <div class="timer-buttons">
+            <button class="btn btn-lg btn-success" data-action="start">
+                Start
+            </button>
+            <button class="btn btn-lg btn-danger" data-action="stop">
+                Stop
+            </button>
+            <button class="btn btn-link btn-block" data-action="reset">
+                Reset
+            </button>
+        </div>
+    </div>
+    <button><a href="../index.html">Home page</a></button>
+
+    <script src="../stopwatch.js"></script>
+</body>
+</html>
